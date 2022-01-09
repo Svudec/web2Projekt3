@@ -1,4 +1,4 @@
 <template>
-  <h1>Sorry, {{ $route.params.catchAll }} is not found.</h1>
-  Try <router-link to="/">home</router-link>
+  <h1>Ups, {{ $route.params.catchAll }} ne postoji.</h1>
+  Idi na <router-link to="/">POČETNU</router-link>
 </template>

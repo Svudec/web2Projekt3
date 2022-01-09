@@ -1,0 +1,54 @@
+{
+    "songs": [
+        {
+            "id": 1,
+            "title": "BAD HABITS",
+            "artist": "ED SHEERAN"
+        },
+        {
+            "id": 2,
+            "title": "GOOD 4 U",
+            "artist": "OLIVIA RODRIGO"
+        },
+        {
+            "id": 3,
+            "title": "DRIVERS LICENSE",
+            "artist": "OLIVIA RODRIGO"
+        },
+        {
+            "id": 4,
+            "title": "SAVE YOUR TEARS",
+            "artist": "WEEKND"
+        },
+        {
+            "id": 5,
+            "title": "MONTERO (CALL ME BY YOUR NAME)",
+            "artist": "LIL NAS X"
+        },
+        {
+            "id": 6,
+            "title": "LEVITATING",
+            "artist": "DUA LIPA"
+        },
+        {
+            "id": 7,
+            "title": "STAY",
+            "artist": "KID LAROI & JUSTIN BIEBER"
+        },
+        {
+            "id": 8,
+            "title": "HEAT WAVES",
+            "artist": "GLASS ANIMALS"
+        },
+        {
+            "id": 9,
+            "title": "BLINDING LIGHTS",
+            "artist": "WEEKND"
+        },
+        {
+            "id": 10,
+            "title": "BODY",
+            "artist": "TION WAYNE & RUSS MILLIONS"
+        }
+    ]
+}
