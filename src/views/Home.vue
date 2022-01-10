@@ -1,5 +1,6 @@
 <template>
   <div class="container">
+    <h1>Na stranici "Muzika" pronađi najpopularnije pjesme trenutno!</h1>
     <a href="/songs">
       <button class="button-54" role="button">Muzika</button>
     </a>
@@ -9,6 +10,7 @@
 <style scoped>
 .container {
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   height: 80vh;

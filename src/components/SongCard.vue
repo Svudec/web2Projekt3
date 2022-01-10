@@ -9,7 +9,7 @@
     <div class="info">
       <h2 class="title">{{song.title}}</h2>
       <h3 class="artist">{{song.artist}}</h3>
-      
+      <button @click="deleteSong">Izbriši</button>
     </div>
   </div>
 </template>
@@ -20,12 +20,9 @@ export default {
   props: ["song"],
   methods: {
     async deleteSong() {
-      await this.$store.dispatch("deleteSong", { id: this.id });
+      await this.$store.dispatch("deleteSong", { id: this.song.id });
       this.$emit("songDelete", this.song);
     },
-  },
-  async created() {
-    // this.recipe = { ...(await this.$store.getters.getRecipeById(this.id)) };
   },
 };
 </script>
@@ -103,7 +100,7 @@ body {
 }
 .music-card > .info {
   position: absolute;
-  bottom: 25px;
+  bottom: 7px;
   left: 0;
   right: 0;
   text-align: center;

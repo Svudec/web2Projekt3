@@ -21,7 +21,6 @@ export default createStore({
         async getSongsFromDb(context) {
                     fetch("/songs.json").then(res => {
                         res.json().then(sngs => {
-                            console.log(sngs)
                             context.commit("setSongs", sngs.songs)
                         })
                         .catch(parseErr => console.log(parseErr))
